@@ -23,7 +23,7 @@ resource "aws_instance" "web" {
   }
 }
 
-data "aws_ami" "ubuntu" {
+data "aws_ami" "web" {
   most_recent = true
 
   filter {
